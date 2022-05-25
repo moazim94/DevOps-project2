@@ -1,0 +1,38 @@
+version: '3.8'
+services:
+  
+  service1:
+    build: ./api1/application/
+    image: moazim/api1:latest
+    ports:
+    - published: 5000
+      target: 5000
+      protocol: tcp
+    
+
+
+  service2:
+    build: ./api2/application/
+    image: moazim/api2:latest
+    ports:
+    - published: 5001
+      target: 5001
+      protocol: tcp   
+
+
+  service3:
+    build: ./api3/application/
+    image: moazim/api3:latest
+    ports:
+    - published: 5002
+      target: 5002
+      protocol: tcp
+
+
+  service4:
+    build: ./api4/application/
+    image: moazim/api4:latest
+    ports:
+    - published: 5003
+      target: 5003
+      protocol: tcp 
