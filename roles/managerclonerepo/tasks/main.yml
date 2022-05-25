@@ -1,0 +1,6 @@
+---
+# tasks file for managerclonerepo
+
+- git: 
+    repo: https://github.com/moazim94/practical-project.git
+    dest: /home/mohammed/docker-project
