@@ -106,10 +106,26 @@ Below is each unit pytests for all 4 services with the coverage scores
 
 ![api4test](./images/api4test.png)
 
+Automated Jenkins testing was also run on a pipeline
+
+![jenkins](./images/jenkins.png)
+
+
 ## Future Improvements<a name= "future improvements"></a>
 
 Firstly, time management is key and I misjudged the complexity of this project making me very constrained on time.
 
 For future improvements I would like to expand the list of countries a lot. 
 
-The visual aesthetic of the website can improve a great deal, however, my coding abilities 
+The visual aesthetic of the website can improve a great deal, however, my coding abilities are not at the level where I can do any major overhauls.
+
+
+
+## Licencing
+
+                    GNU GENERAL PUBLIC LICENSE
+                       Version 3, 29 June 2007
+
+ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
